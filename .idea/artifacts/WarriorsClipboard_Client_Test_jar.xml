@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WarriorsClipboard_Client_Test:jar">
+    <output-path>$PROJECT_DIR$/Jar</output-path>
+    <root id="archive" name="WarriorsClipboard_Client_Test.jar">
+      <element id="module-output" name="WarriorsClipboard_Client_Test" />
+    </root>
+  </artifact>
+</component>
