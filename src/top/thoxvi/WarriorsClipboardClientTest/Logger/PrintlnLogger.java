@@ -2,7 +2,8 @@ package top.thoxvi.WarriorsClipboardClientTest.Logger;
 
 
 /**
- * Created by Thoxvi on 2017/4/15.
+ * 由 Thoxvi 在 2017/4/15编写.
+ * 联系方式：Thoxvi@Gmail.com
  */
 public class PrintlnLogger implements ILog {
     @Override

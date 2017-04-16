@@ -9,6 +9,10 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ * 由 Thoxvi 在 2017/4/15编写.
+ * 联系方式：Thoxvi@Gmail.com
+ */
 public class Main {
 
     public static void main(String[] args) {

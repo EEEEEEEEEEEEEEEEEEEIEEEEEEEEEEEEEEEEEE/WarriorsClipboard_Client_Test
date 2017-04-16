@@ -3,7 +3,7 @@ package top.thoxvi.WarriorsClipboardClientTest.Tool;
 import java.util.Random;
 
 /**
- * 由 Thoxvi 在 2017/4/16编写.
+ * 由 Thoxvi 在 2017/4/16编写 .
  * 联系方式：Thoxvi@Gmail.com
  */
 

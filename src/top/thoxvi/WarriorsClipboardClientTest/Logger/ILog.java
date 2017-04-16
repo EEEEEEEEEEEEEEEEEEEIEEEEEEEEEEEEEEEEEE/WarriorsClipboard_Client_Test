@@ -1,7 +1,8 @@
 package top.thoxvi.WarriorsClipboardClientTest.Logger;
 
 /**
- * Created by Thoxvi on 2017/4/15.
+ * 由 Thoxvi 在 2017/4/15编写.
+ * 联系方式：Thoxvi@Gmail.com
  */
 public interface ILog {
     void WTF(String tag, String info);

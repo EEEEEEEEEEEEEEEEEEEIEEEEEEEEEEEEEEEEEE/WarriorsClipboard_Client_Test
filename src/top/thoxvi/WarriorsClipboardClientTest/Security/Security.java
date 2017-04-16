@@ -3,12 +3,15 @@ package top.thoxvi.WarriorsClipboardClientTest.Security;
 import top.thoxvi.WarriorsClipboardClientTest.Logger.ILog;
 import top.thoxvi.WarriorsClipboardClientTest.Logger.LoggerFactory;
 
-import javax.crypto.*;
+import javax.crypto.Cipher;
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.security.SecureRandom;
 
 /**
- * Created by Thoxvi on 2017/4/15.
+ * 由 Thoxvi 在 2017/4/15编写.
+ * 联系方式：Thoxvi@Gmail.com
  */
 public class Security implements SecurityMode {
     private byte[] password;
@@ -49,8 +52,7 @@ public class Security implements SecurityMode {
             SecretKeySpec key = new SecretKeySpec(enCodeFormat, "AES");
             Cipher cipher = Cipher.getInstance("AES");
             cipher.init(Cipher.ENCRYPT_MODE, key);
-            byte[] result = cipher.doFinal(content);
-            return result;
+            return cipher.doFinal(content);
         } catch (Exception e) {
             logger.Erro(this.getClass().getName(), "加密失败！");
         }

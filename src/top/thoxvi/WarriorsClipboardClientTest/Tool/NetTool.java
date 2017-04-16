@@ -11,7 +11,8 @@ import java.io.IOException;
 import java.net.Socket;
 
 /**
- * Created by Thoxvi on 2017/4/15.
+ * 由 Thoxvi 在 2017/4/15编写.
+ * 联系方式：Thoxvi@Gmail.com
  */
 public class NetTool {
     private static ILog logger = LoggerFactory.getInstance().getLogger();
